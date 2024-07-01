@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    background-color: lightcyan;
+    
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    /* margin-bottom: 50px; */
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+
+  }
+  
+  
+  .login-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    width: 300px;
+  }
+  .login-form h2 {
+    text-align: center;
+  }
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  .login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .login-form input[type="submit"]:hover {
+    background-color: blue;
+  }
